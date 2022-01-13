@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-img {
+    background-image: url(photo1.jpg);
+    height: auto;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#navbar {
+    width: 85%;
+}
+
+.com-name {
+    width: fit-content;
+    color: #0d6efd;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.heading h1 {
+    max-width: 48%;
+    margin: auto;
+    color: #fff;
+    padding: 60px 0px;
+}
+
+.heading p {
+    color: white;
+}
+
+#sign-up {
+    width: 350px;
+    margin-bottom: 100px;
+    padding: 15px;
+}
+
+.main-heading {
+    height: 60vh;
+    background-color: rgb(245, 231, 231);
+}
+
+.main-heading {
+    padding: 100px 100px;
+}
+
+.bg-fold-1 {
+    background-color: rgb(233, 232, 232);
+    height: 500px;
+}
+
+.fold-1 p {
+    color: rgb(153, 147, 147);
+}
+
+#main-section1 {
+    width: 75%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 100px 0px;
+}
+
+.fold-1-right-para {
+    padding-left: 25px;
+}
+
+.fold-1-right-para p {
+    text-align: justify;
+}
+
+.main-section2 {
+    justify-content: space-between;
+    padding: 0px;
+    width: 75%;
+    margin: -150px auto;
+}
+
+.section-2-card {
+    margin: 10px 0px;
+}
+
+.card {
+    border: 2px solid white;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-text {
+    color: rgb(153, 147, 147);
+}
+
+.bg-img1 {
+    background-image: url(photo4.jpg);
+    height: 50vh;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: 20%;
+}
+
+#insidemain-section3 {
+    margin: auto;
+    height: 100%;
+    align-items: center;
+    width: 75%;
+}
+
+#h-3 {
+    color: white;
+}
+
+#para-3 {
+    color: white;
+}
+
+#para-3 p {
+    width: 70%;
+    text-align: justify;
+}
+
+.section-4 {
+    width: 75%;
+    margin: 10% auto;
+}
+
+.card-img-top {
+    height: 100%;
+}
+
+.card-img1 {
+    background-image: url(technology.jpg);
+    background-size: cover;
+}
+
+.main-section4 {
+    border: 2px solid white;
+    background-color: rgb(233, 232, 232);
+}
+
+.footer-section {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    padding-top: 5%;
+}
+
+.footer-section p {
+    color: rgb(153, 147, 147);
+}
+
+.footer-para {
+    padding-top: 3%;
+    width: 35%;
+    text-align: justify;
+}
+
+.footer-desc {
+    /*border: 2px solid black;*/
+    padding: 3% 3%;
+}
+
+.footer-desc h1 {
+    padding-bottom: 14%;
+    color: #0d6efd;
+    font-size: 2rem;
+}
+
+.footer-desc p {
+    text-align: justify;
+}
+
+.footer-course {
+    /*border: 2px solid black;*/
+    padding: 3% 3%;
+}
+
+.footer-course ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+ul li {
+    font-weight: bold;
+    padding: 1% 0;
+    padding: 5% 0;
+}
+
+.footer-course ul li a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.footer-institute {
+    /*border: 2px solid black;*/
+    padding: 3% 3%;
+}
+
+.footer-institute ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.footer-institute ul li {
+    font-weight: bold;
+    padding: 5% 0;
+}
+
+.footer-institute ul li a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.footer-follow {
+    /*border: 2px solid black;*/
+    padding: 3% 3%;
+}
+
+.final-footer {
+    background-color: rgb(233, 232, 232);
+    padding: 4% 9%;
+}
+
+.final-footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.final-footer p {
+    color: rgb(153, 147, 147);
+}
+
+@media only screen and (max-width: 576px) {
+    #sign-up {
+        margin-bottom: 0px;
+        width: 170px;
+    }
+    .bg-img {
+        background-position: top;
+    }
+    .heading {
+        padding: 20px;
+    }
+    .heading h1 {
+        font-size: 20px;
+        max-width: 75%;
+        padding: 20px;
+    }
+    .main-heading {
+        height: 80%;
+        padding: 20px;
+    }
+    .fold-1 {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .bg-fold-1 {
+        height: fit-content;
+    }
+    #main-section1 {
+        width: 85%;
+        padding: 20px 0px;
+    }
+    .fold-1-right-para,
+    .fold-1-left-para {
+        padding: 0;
+    }
+    .main-section2 {
+        margin: 0px auto;
+    }
+    .section-2-card {
+        height: auto !important;
+    }
+    .bg-img1 {
+        height: auto !important;
+        margin: 0px auto;
+        background-image: none;
+    }
+    #h-3,
+    #para-3 {
+        color: black;
+    }
+    #insidemain-section3 {
+        padding: 30px 0px;
+        height: auto !important;
+        width: 85%;
+    }
+    #para-3 p {
+        width: 100%;
+    }
+    .card-img-top {
+        padding: 0px 10px;
+    }
+}
